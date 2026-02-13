@@ -1,0 +1,10 @@
+---
+title: "Macroeconomics II - Group J"
+author: "Me"
+date: "2026-02-13"
+output: pdf_document
+---
+
+```{r TEST}
+print("test")
+```
