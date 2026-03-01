@@ -5,5 +5,15 @@ date: "2026-02-13"
 output: pdf_document
 ---
 
-```{r }
+```{r Maximum Likelihood Estimate}
+library(dplyr)
+data = read.csv("group_assignment_q2_data.csv")
+
+N = nrow(data)
+sum_u = sum(data["Weeks.unemployed"])
+
+u_bar = sum_u / N
+
+w_star = (3 / 2) - (1 / u_bar)
+print(w_star)
 ```
